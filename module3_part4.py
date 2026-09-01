@@ -9,4 +9,4 @@ def registration(login,pswrd):
 	pair = {login:pswrd}
 
 	with open("pairs.txt", "w", encoding="utf-8") as file:
-    	json.load(pair, file)
+		json.load(pair, file)
